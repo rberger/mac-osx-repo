@@ -12,6 +12,8 @@ cookbook 'rvm',
   :git => 'git://github.com/fnichol/chef-rvm',
   :ref => 'v0.8.6'
 
+cookbook 'homebrew'
+
 cookbook 'ghmac',
   :git => 'git://github.com/jtimberman/ghmac-cookbook'
 
@@ -32,7 +34,3 @@ cookbook 'homesick',
 cookbook 'bashrc',
   :git => 'git://github.com/fnichol/chef-bashrc.git',
   :ref => 'v0.2.2'
-
-# cookbook 'postgresql',
-#   :git => 'https://github.com/findsyou/cookbooks',
-#   :ref => 'postgresql-improvements'

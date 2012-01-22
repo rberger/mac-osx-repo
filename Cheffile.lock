@@ -5,6 +5,7 @@ SITE
     git (0.10.0)
       runit (>= 0.0.0)
       yum (>= 0.0.0)
+    homebrew (1.0.0)
     runit (0.14.2)
     yum (0.5.2)
 
@@ -72,6 +73,7 @@ DEPENDENCIES
   chef-client (>= 0)
   dmg (>= 0)
   ghmac (>= 0)
+  homebrew (>= 0)
   homesick (>= 0)
   rvm (>= 0)
   skype5 (>= 0)

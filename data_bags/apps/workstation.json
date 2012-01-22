@@ -1,0 +1,70 @@
+{
+  "id": "workstation",
+  "dmgs": {
+    "Dropbox": {
+      "volumes_dir": "Dropbox Installer",
+      "url": "http://www.dropbox.com/download?plat=mac",
+      "checksum": "b4ea620ca22b0517b75753283ceb82326aca8bc3c86212fbf725de6446a96a13"
+    },
+    "Google Chrome": {
+      "dmg_name": "googlechrome",
+      "url": "https://dl-ssl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg",
+      "checksum": "7daa2dc5c46d9bfb14f1d7ff4b33884325e5e63e694810adc58f14795165c91a"
+    },
+    "Firefox": {
+      "url": "http://download.mozilla.org/?product=firefox-8.0&os=osx&lang=en-US",
+      "checksum": "D2FC67B8ABB9B614FFD4F4A4456182D24FA2867A5BDEE24F7FD69F5509529F95"
+    },
+    "KeyCaster": {
+      "dmg_name": "KeyCastr",
+      "url": "http://stephendeken.net/software/keycastr/releases/keycastr_0.8.0.dmg",
+      "checksum": "ecf59a2e46a8ca450c12f426a4d41000de1c3010a5c46fe12f23fdc647f3f1e7"
+    },
+    "Adium": {
+      "volumes_dir": "Adium 1.4.1",
+      "url": "http://download.adium.im/Adium_1.4.1.dmg",
+      "checksum": "5c6971d7d4df3a8b7cce703bcb75ea14973eb3bdda1da46fb7a9451b5a27105d"
+    }
+  },
+  "packages": {
+    "ack": "",
+    "git": "",
+    "htop": "",
+    "imagemagick": "",
+    "macvim": "",
+    "md5sha1sum": "",
+    "openvpn": "",
+    "pstree": "",
+    "ssh-copy-id": "",
+    "tmux": "",
+    "tree": "",
+    "watch": "",
+    "wget": ""
+  },
+  "gems": {
+    "ohai": "",
+    "chef": "",
+    "json": "",
+    "yajl-ruby": "",
+    "bluecloth": "",
+    "thor": "",
+    "awesome_print": "",
+    "gist": "",
+    "fog": "",
+    "highline": "",
+    "net-sftp": "",
+    "net-ssh-multi": "",
+    "gem-man": "",
+    "qwandry": "",
+    "wirble": "",
+    "ghost": "",
+    "rspec": "",
+    "cucumber": "",
+    "git-up": "",
+    "cheat": "",
+    "prawn": "",
+    "vagrant": "",
+    "veewee": "",
+    "ubuntu_ami": ""
+  }
+}
