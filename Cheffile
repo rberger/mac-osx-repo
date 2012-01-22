@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'chef-client'
+
+cookbook 'dmg',
+  :git => 'git://github.com/fnichol/chef-dmg'
+
+cookbook 'rvm',
+  :git => 'git://github.com/fnichol/chef-rvm',
+  :ref => 'v0.8.6'
+
+cookbook 'ghmac',
+  :git => 'git://github.com/jtimberman/ghmac-cookbook'
+
+cookbook 'virtualbox',
+  :git => 'git://github.com/jtimberman/virtualbox-cookbook'
+
+cookbook 'skype5',
+  :git => 'git://github.com/jtimberman/skype5-cookbook'
+
+cookbook 'user',
+  :git => 'git://github.com/fnichol/chef-user',
+  :ref => "v0.2.10"
+
+cookbook 'homesick',
+  :git => 'git://github.com/fnichol/chef-homesick.git',
+  :ref => 'v0.2.2'
+
+cookbook 'bashrc',
+  :git => 'git://github.com/fnichol/chef-bashrc.git',
+  :ref => 'v0.2.2'
+
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'

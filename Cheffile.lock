@@ -1,0 +1,80 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    chef-client (1.0.4)
+    git (0.10.0)
+      runit (>= 0.0.0)
+      yum (>= 0.0.0)
+    runit (0.14.2)
+    yum (0.5.2)
+
+GIT
+  remote: git://github.com/fnichol/chef-bashrc.git
+  ref: v0.2.2
+  sha: fb72eaaf2cc7359f05671763f38f333f1c5f9f48
+  specs:
+    bashrc (0.2.2)
+      git (>= 0.0.0)
+
+GIT
+  remote: git://github.com/fnichol/chef-dmg
+  ref: master
+  sha: 9bddc0f5fd264e64f4ed09e4595f424a2e8c107a
+  specs:
+    dmg (0.6.0)
+
+GIT
+  remote: git://github.com/fnichol/chef-homesick.git
+  ref: v0.2.2
+  sha: 246df56709815354f01d241b53bd1c68a300aab9
+  specs:
+    homesick (0.2.2)
+
+GIT
+  remote: git://github.com/fnichol/chef-rvm
+  ref: v0.8.6
+  sha: f5b89cb4dafa261afb5b18c4d0936aaf302e2a15
+  specs:
+    rvm (0.8.6)
+
+GIT
+  remote: git://github.com/fnichol/chef-user
+  ref: v0.2.10
+  sha: 7a53eb2884ed2601b66186e9ccf661140929e1cf
+  specs:
+    user (0.2.10)
+
+GIT
+  remote: git://github.com/jtimberman/ghmac-cookbook
+  ref: master
+  sha: 5d7e015eff3fb8a79bfa1e74139598307315df77
+  specs:
+    ghmac (1.1.0)
+
+GIT
+  remote: git://github.com/jtimberman/skype5-cookbook
+  ref: master
+  sha: 913138c0e557d8d129c1d3a8e905dcfd9f171ffb
+  specs:
+    skype5 (1.0.4)
+      dmg (>= 0.0.0)
+
+GIT
+  remote: git://github.com/jtimberman/virtualbox-cookbook
+  ref: master
+  sha: f67516fd3ec87e166288fdfa30bfe3d477025c7f
+  specs:
+    virtualbox (0.5.0)
+      dmg (>= 0.0.0)
+
+DEPENDENCIES
+  bashrc (>= 0)
+  chef-client (>= 0)
+  dmg (>= 0)
+  ghmac (>= 0)
+  homesick (>= 0)
+  rvm (>= 0)
+  skype5 (>= 0)
+  user (>= 0)
+  virtualbox (>= 0)
+
